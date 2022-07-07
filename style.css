@@ -102,3 +102,38 @@ h2 {
     border-bottom: 2px solid #B7B7B7;
     margin-bottom: 40px;
 }
+
+/*Donate Plan Section CSS*/
+.donate-plan {
+    margin-top: 125px;
+    text-align: center;
+}
+
+.donate-plan-box {
+    margin-top: 50px;
+}
+
+.donate-plan-box div {
+    padding: 50px 25px;
+    text-align: left;
+}
+
+.donate-plan-box div p {
+    font-size: 15px;
+}
+
+.donate-plan-box #plan-1 {
+    margin-left: 15%;
+    background-color: #EDF5F6;
+}
+
+.donate-plan-box #plan-2 {
+    margin-left: 1%;
+    background-color: #FFEEEE;
+}
+
+.donate-plan-box #plan-3 {
+    margin-left: 1%;
+    margin-right: 15%;
+    background-color: #FFF4D6;
+}
