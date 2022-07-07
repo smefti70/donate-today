@@ -1,0 +1,50 @@
+/*CSS for whole body*/
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*CSS for link, h1 and h2*/
+body a,
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header Section CSS*/
+.top-banner {
+    height: 627px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.top-text {
+    color: white;
+    text-align: center;
+}
+
+.top-text p {
+    margin-bottom: 30px;
+}
+
+.colorful-button {
+    background-color: #FF5959;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
