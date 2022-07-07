@@ -137,3 +137,36 @@ h2 {
     margin-right: 15%;
     background-color: #FFF4D6;
 }
+
+/*Get Update Section CSS*/
+.get-update-section {
+    margin-top: 125px;
+    text-align: center;
+}
+
+.subscribe-section {
+    height: 150px;
+    background-color: #FFF4D6;
+    width: 600px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#email-input {
+    border-radius: 5px 0 0 5px;
+    padding: 12px 50px;
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+}
+
+#subcribe-button {
+    background-color: #FF5959;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    text-decoration: none;
+}
