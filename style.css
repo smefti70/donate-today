@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/*CSS for link, h1 and h2*/
+/*Selecting Font Family for link, h1 and h2 only*/
 body a,
 h1,
 h2 {
@@ -142,6 +142,7 @@ h2 {
 .get-update-section {
     margin-top: 125px;
     text-align: center;
+    margin-bottom: 125px;
 }
 
 .subscribe-section {
@@ -169,4 +170,29 @@ h2 {
     color: white;
     border-radius: 0 5px 5px 0;
     text-decoration: none;
+}
+
+/*Footer Section CSS*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    background-color: #0B0D17;
+}
+
+#footer-text {
+    text-align: center;
+}
+
+#footer-big-text {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: #FF5959;
+    margin: 0;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
 }
